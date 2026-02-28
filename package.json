@@ -2,7 +2,7 @@
   "name": "disodex-computer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
+  "homepage": "https://Disodex.github.io/Disodex_Computer",
   "dependencies": {
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
