@@ -9492,12 +9492,6 @@
                       children: "Products",
                     }),
                     (0, x.jsx)("a", {
-                      href: "#wholesale",
-                      className:
-                        "block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md",
-                      children: "Wholesale",
-                    }),
-                    (0, x.jsx)("a", {
                       href: "#contact",
                       className:
                         "block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md",

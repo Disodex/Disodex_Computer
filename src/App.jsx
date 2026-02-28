@@ -57,9 +57,9 @@ const LandingPage = () => {
               >
                 About Us
               </a>
-              <button className="bg-blue-600 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700 transition shadow-lg shadow-blue-600/30">
+             <a href="#about"> <button className="bg-blue-600 text-white px-5 py-2 rounded-full font-medium hover:bg-blue-700 transition shadow-lg shadow-blue-600/30">
                 Contact Us
-              </button>
+              </button></a>
             </div>
 
             <div className="md:hidden flex items-center">
@@ -93,13 +93,7 @@ const LandingPage = () => {
                 Products
               </a>
               <a
-                href="#wholesale"
-                className="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md"
-              >
-                Wholesale
-              </a>
-              <a
-                href="#contact"
+                href="#about"
                 className="block px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md"
               >
                 Contact
