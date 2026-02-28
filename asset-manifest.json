@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Disodex_Computer/static/css/main.d6e19195.css",
-    "main.js": "/Disodex_Computer/static/js/main.0c00a854.js",
+    "main.js": "/Disodex_Computer/static/js/main.9fbf5cb0.js",
     "index.html": "/Disodex_Computer/index.html",
     "main.d6e19195.css.map": "/Disodex_Computer/static/css/main.d6e19195.css.map",
-    "main.0c00a854.js.map": "/Disodex_Computer/static/js/main.0c00a854.js.map"
+    "main.9fbf5cb0.js.map": "/Disodex_Computer/static/js/main.9fbf5cb0.js.map"
   },
   "entrypoints": [
     "static/css/main.d6e19195.css",
-    "static/js/main.0c00a854.js"
+    "static/js/main.9fbf5cb0.js"
   ]
 }
