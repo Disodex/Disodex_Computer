@@ -130,7 +130,7 @@ const LandingPage = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
                 </span>
-                Trusted Tech Partner Since 2010
+                Trusted Tech Partner Since 1999
               </div>
               <h1 className="text-5xl lg:text-6xl font-extrabold tracking-tight text-black leading-[1.1]">
                 Tech You Can Trust for{" "}
@@ -290,7 +290,7 @@ const LandingPage = () => {
                   <span className="font-bold text-xl text-white">Disodex</span>
                 </div>
                 <p className="text-sm">
-                  Your trusted partner for computer hardware since 2010.
+                  Your trusted partner for computer hardware since 1999.
                 </p>
               </div>
               <div>
