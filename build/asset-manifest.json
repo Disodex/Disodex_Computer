@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Disodex_Computer/static/css/main.d6e19195.css",
+    "main.js": "/Disodex_Computer/static/js/main.1ee9ac84.js",
+    "index.html": "/Disodex_Computer/index.html",
+    "main.d6e19195.css.map": "/Disodex_Computer/static/css/main.d6e19195.css.map",
+    "main.1ee9ac84.js.map": "/Disodex_Computer/static/js/main.1ee9ac84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6e19195.css",
+    "static/js/main.1ee9ac84.js"
+  ]
+}

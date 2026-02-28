@@ -23,7 +23,10 @@ const LandingPage = () => {
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
               <div className="p-2 rounded-lg">
-                <img src="/logo.png" className="h-14 w-14" />
+                <img
+                  src={process.env.PUBLIC_URL + "/logo.png"}
+                  className="h-14 w-14"
+                />
               </div>
               <div>
                 <span className="font-bold text-2xl text-slate-900 tracking-tight">
@@ -111,7 +114,7 @@ const LandingPage = () => {
         id="home"
         className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden"
         style={{
-          backgroundImage: "url(/homepage.png)",
+          backgroundImage: `url(${process.env.PUBLIC_URL}/homepage.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -170,8 +173,9 @@ const LandingPage = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Fast Logistics</h3>
               <p className="text-slate-600 leading-relaxed italic">
-               From our door to yours, faster than you'd expect. 
-               Experience seamless delivery that keeps up with your pace, so you get what you need, exactly when you need it.
+                From our door to yours, faster than you'd expect. Experience
+                seamless delivery that keeps up with your pace, so you get what
+                you need, exactly when you need it.
               </p>
             </div>
 
@@ -181,8 +185,8 @@ const LandingPage = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Warranty Support</h3>
               <p className="text-slate-600 leading-relaxed italic">
-               Protection that works as hard as you do.
-               Our warranty support ensures your laptop stays ready for anything.
+                Protection that works as hard as you do. Our warranty support
+                ensures your laptop stays ready for anything.
               </p>
             </div>
 
@@ -218,7 +222,7 @@ const LandingPage = () => {
             <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:scale-110 hover:shadow-xl transition duration-300 border-2 border-grey">
               <div className="h-48 bg-slate-200 relative overflow-hidden">
                 <img
-                  src="..\Computer.jpg"
+                  src={process.env.PUBLIC_URL + "/Computer.jpg"}
                   alt="Laptops"
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -237,7 +241,7 @@ const LandingPage = () => {
             <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:scale-110 hover:shadow-xl transition duration-300 border-2 border-grey">
               <div className="h-48 bg-slate-200 relative overflow-hidden">
                 <img
-                  src="..\Components.jpg"
+                  src={process.env.PUBLIC_URL + "/Components.jpg"}
                   alt="Components"
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                 />
@@ -256,14 +260,16 @@ const LandingPage = () => {
             <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:scale-110 hover:shadow-xl transition duration-300 border-2 border-grey">
               <div className="h-48 bg-slate-200 relative overflow-hidden">
                 <img
-                  src="..\Accessories.jpg"
+                  src={process.env.PUBLIC_URL + "/Accessories.jpg"}
                   alt="Servers"
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold mb-2">Accessories</h3>
-                <p className="text-sm text-slate-500 mb-4 leading-relaxed italic">Device Essentials</p>
+                <p className="text-sm text-slate-500 mb-4 leading-relaxed italic">
+                  Device Essentials
+                </p>
                 <a href="#" className="text-blue-600 text-sm font-semibold">
                   Learn More
                 </a>
@@ -275,73 +281,74 @@ const LandingPage = () => {
 
       {/* Footer */}
       <section id="about" className="py-20 bg-slate-175">
-      <footer className="bg-slate-900 text-slate-300 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Monitor className="h-6 w-6 text-blue-500" />
-                <span className="font-bold text-xl text-white">Disodex</span>
+        <footer className="bg-slate-900 text-slate-300 py-12">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid md:grid-cols-4 gap-8">
+              <div>
+                <div className="flex items-center gap-2 mb-4">
+                  <Monitor className="h-6 w-6 text-blue-500" />
+                  <span className="font-bold text-xl text-white">Disodex</span>
+                </div>
+                <p className="text-sm">
+                  Your trusted partner for computer hardware since 2010.
+                </p>
               </div>
-              <p className="text-sm">
-                Your trusted partner for computer hardware since 2010.
-              </p>
+              <div>
+                <h4 className="text-white font-bold mb-4">Products</h4>
+                <ul className="space-y-2 text-sm">
+                  <li>
+                    <a href="#" className="hover:text-white">
+                      Laptops
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:text-white">
+                      Desktops
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:text-white">
+                      Accessories
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-bold mb-4">Company</h4>
+                <ul className="space-y-2 text-sm">
+                  <li>
+                    <a href="#" className="hover:text-white">
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:text-white">
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:text-white">
+                      Privacy Policy
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-span-1 md:col-span-1 ">
+                <h4 className="text-white font-bold mb-4">Contact</h4>
+                <p className="text-sm mb-2">Email: disodex1@gmail.com</p>
+                <p className="text-sm mb-2">Phone: 08023920435</p>
+                <p className="text-sm">
+                  Address: 1, Francis Oremeji Street Off Simibiat Abiola Way
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 className="text-white font-bold mb-4">Products</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Laptops
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Desktops
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Accessories
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-bold mb-4">Company</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <a href="#" className="hover:text-white">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Contact
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white">
-                    Privacy Policy
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-span-1 md:col-span-1 ">
-              <h4 className="text-white font-bold mb-4">Contact</h4>
-              <p className="text-sm mb-2">Email: disodex1@gmail.com</p>
-              <p className="text-sm mb-2">Phone: 08023920435</p>
-              <p className="text-sm">Address: 1, Francis Oremeji Street Off Simibiat Abiola Way</p>
+            <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm">
+              <p>&copy; 2026 Disodex Computers Ltd. All rights reserved.</p>
             </div>
           </div>
-          <div className="border-t border-slate-800 mt-12 pt-8 text-center text-sm">
-            <p>&copy; 2026 Disodex Computers Ltd. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-       </section>
+        </footer>
+      </section>
     </div>
-   
   );
 };
 
